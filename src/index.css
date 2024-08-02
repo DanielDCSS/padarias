@@ -139,14 +139,14 @@ body {
   position: relative;
   padding: 0px 0px 0px 0px;
   
-  top: 50px;
+  top: 70px;
   /* Move o elemento 20px para baixo */
   left: 80px;
 }
 #localizer2{
   position: relative;
   padding: 0px 0px 0px 0px;
-  top: 50px;
+  top: 70px;
   /* Move o elemento 20px para baixo */
   left: 30px;
   height: 100vh;
@@ -156,7 +156,16 @@ body {
 }
 .ctt{
   display: flex;
-  background-color: black;
+  background-image: url('./assets/imagens/paes2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  height: 100vh;
+  /* Altura da viewport */
+  width: 100vw;
+  /* Largura da viewport */
+  
 }
 .dados_local{
   height: 100vh;
@@ -172,10 +181,14 @@ body {
   color: white;
 }
 input{
-  background-color: #59143A;
+  background-color: transparent;
+  color: #9ED99E;
 }
 textarea{
-  background-color: #59143A;
+  background-color: transparent;
+  width: 500px;
+  height: 200px;
+  color: #9ED99E;
 }
 
 
